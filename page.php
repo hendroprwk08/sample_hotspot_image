@@ -23,8 +23,8 @@
         [ "rect", "295, 75, 420, 145", "http://apple.com" ] #tv
     ];
 
-    echo '
-    <img src="img/booth.jpeg" class="center" usemap="#img_map" width="700" height="400">
+    echo 
+    '<img src="img/booth.jpeg" class="center" usemap="#img_map" width="700" height="400">
     <map name="img_map">';
 
     for($i = 0; $i < count($arrHS); $i++){
